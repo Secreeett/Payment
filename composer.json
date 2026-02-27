@@ -1,0 +1,19 @@
+{
+    "name": "payment-system/order-of-payment",
+    "description": "Order of Payment Form System with Excel Integration",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "mpdf/mpdf": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "."
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}
+
